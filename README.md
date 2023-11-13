@@ -2,7 +2,7 @@
 
 Submission Tugas Akhir Membuat Website - Kelas Belajar Dasar Pemrograman Web Oleh Dicoding
 
-🗒️ [Sertifikat Kompetensi Kelas Belajar Dasar Pemrograman Web.pdf](https://www.dicoding.com/certificates/KEXLLK3DMXG2)
+🗒️ [Sertifikat Kompetensi Kelas Belajar Dasar Pemrograman Web.pdf](https://www.dicoding.com/certificates/81P27YVKNZOY)
 
 ## 🚀 Deskripsi Kelas
 
