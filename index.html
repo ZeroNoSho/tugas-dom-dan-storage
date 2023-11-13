@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submission Aplikasi DOM dan Web Storage</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+  </head>
+
+  <body>
+    <header class="wrapper">
+      <h1>
+        Submission Aplikasi Pengelolaan Data Menggunakan DOM dan Web Storage
+      </h1>
+    </header>
+    <main class="wrapper">
+      <div class="top">
+        <div class="form-container">
+          <h2 class="title">Tambah Buku Baru</h2>
+          <form id="databuku" action="" method="post">
+            <div class="form-group">
+              <input
+                type="text"
+                name="judul"
+                id="judul"
+                placeholder=""
+                required
+              />
+              <label for="judul">Judul</label>
+            </div>
+            <div class="row">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="penulis"
+                  id="penulis"
+                  placeholder=""
+                  required
+                />
+                <label for="penulis">Penulis</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  name="tahun"
+                  id="tahun"
+                  placeholder=""
+                  required
+                />
+                <label for="tahun">Tahun</label>
+              </div>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" name="isRead" id="isRead" placeholder="" />
+              <label for="isRead">Sudah selesai dibaca</label>
+            </div>
+            <button type="submit" class="submit-btn">Simpan</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="left-container">
+          <h2 class="title">Buku Belum Dibaca</h2>
+          <div id="belum" class="scrollable-div"></div>
+        </div>
+        <div class="right-container">
+          <h2 class="title">Buku Sudah Dibaca</h2>
+          <div id="sudah" class="scrollable-div"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Tugas Akhir Membuat Website (Dicoding) &#169; 2023, Ari Rachman</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+    <script src="js/event.js"></script>
+    <script src="js/localstorage.js"></script>
+  </body>
+</html>
