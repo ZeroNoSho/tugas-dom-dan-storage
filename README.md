@@ -1,6 +1,6 @@
 # 💄 OneDaf Cosmetic 
 
-Submission Tugas Akhir Membuat Website - Kelas Belajar Dasar Pemrograman Web Oleh Dicoding
+Submission Tugas Akhir Membuat Website - Kelas Belajar Membuat Front-End Web untuk Pemula Oleh Dicoding
 
 🗒️ [Sertifikat Kompetensi Kelas Belajar Membuat Front-End Web untuk Pemula Web.pdf](https://www.dicoding.com/certificates/81P27YVKNZOY)
 
